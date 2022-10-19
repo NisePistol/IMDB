@@ -1,0 +1,29 @@
+﻿<Window x:Class="IMDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMDB"
+        mc:Ignorable="d"
+        Title="Sök Film" Height="450" Width="800" Background="#EEE">
+    <StackPanel>
+        <Label>Sök Film:</Label>
+        <TextBox Name="rutaFilmNamn"></TextBox>
+
+        <Button Click="KlickSökFilm">Sök</Button>
+
+        <Label>Titel:</Label>
+        <TextBox Name="rutaFilmTitel"></TextBox>
+
+        <Label>År:</Label>
+        <TextBox Name="rutaFilmÅr"></TextBox>
+
+        <Label>Direktör:</Label>
+        <TextBox Name="rutaFilmDirektör"></TextBox>
+
+        <Label>Rating:</Label>
+        <TextBox Name="rutaFilmRating"></TextBox>
+
+        <Button Click="KlickÅterställ">Återställ</Button>
+    </StackPanel>
+</Window>
